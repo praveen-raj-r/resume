@@ -5,7 +5,7 @@
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
-
+\usepackage{amsmath}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -98,41 +98,40 @@
   \href{mailto:praveen1220raj@gmail.com}{praveen1220raj@gmail.com} &
   \multirow{2}{*}{
     \begin{tabular}{c}
-      \Huge \textbf{Praveen Raj R} 
+      \Huge \textbf{Praveen Raj R} \\
+      {Chennai, India} 
     \end{tabular}
   } &
   \href{https://praveen-raj.vercel.app}{praveen-raj.vercel.app} \\
-  +91 91769 67767 & & Chennai, India
+  +91 91769 67767 & & \href{https://www.linkedin.com/in/praveenraj-sde/}{linkedin.com/in/praveenraj-sde} 
 \end{tabular*}
 
 
 %-----------EXPERIENCE-----------------
 \section{Work Experience}
-  \resumeSubHeadingListStart
+\resumeSubHeadingListStart
+
 \resumeSubheading
   {LCS Controls Private Limited}{Chennai, India}
   {Frontend Engineer}{May 2023 -- Present}
 
 \resumeItemListStart
-\resumeItemNH{\textbf{Directed end-to-end frontend development} for production-grade \textbf{B2B} and \textbf{B2C} web applications, delivering scalable user interfaces for industrial monitoring systems and payment analytics platforms.}
 
-\resumeItemNH{\textbf{Built and optimized real-time monitoring dashboards} for Tipper, Checkweigher, and Weighbridge systems, used by \textbf{30+ enterprise clients} to track \textbf{200+ industrial devices}, ensuring stable performance under high-frequency data updates.}
+\resumeItemNH{\textbf{Directed end-to-end frontend development} for production-grade \textbf{B2B and B2C web applications}, delivering scalable and maintainable UI architectures.}
 
-\resumeItemNH{\textbf{Owned development of a customer-facing IoT payment platform, designing scalable state management, API integration layers and reusable UI components} supporting \textbf{20K+ payment events} across \textbf{25+ devices} and \textbf{10+ organizations}.}
+\resumeItemNH{\textbf{Owned and executed the complete frontend migration from jQuery \& Bootstrap to React \& Tailwind CSS}, achieving a \textbf{40\%} reduction in UI defects and faster feature delivery.}
 
-\resumeItemNH{\textbf{Designed and implemented a media management module} enabling upload, preview, validation, and management of images and videos, integrated with \textbf{AWS S3} for device-level content delivery.}
+\resumeItemNH{\textbf{Built and optimized real-time industrial dashboards} for Tipper, Checkweigher, and Weighbridge systems, supporting \textbf{30+ enterprise clients} and \textbf{200+ connected devices}.}
 
-\resumeItemNH{\textbf{Developed settlement and reporting workflows}, including calendar-based daily analytics and structured report generation to support accurate business tracking and financial reconciliation.}
+\resumeItemNH{\textbf{Engineered high-frequency data rendering pipelines and reusable UI components}, sustaining smooth UI updates(\textbf{$<200\text{ ms}$}) and accelerating feature delivery by \textbf{30\%}.}
 
-\resumeItemNH{\textbf{Architected and delivered a 70+ page corporate website}, improving navigation structure, media loading performance, and SEO metadata management for large-scale product content.}
+\resumeItemNH{\textbf{Architected frontend for customer-facing IoT and corporate platforms}, processing \textbf{20K+ payment events}, delivering a \textbf{70+ page website}, and integrating media workflows with \textbf{AWS S3}.}
 
 
 \resumeItemListEnd
-
 \resumeSubHeadingListEnd
- 
- 
 
+%-----------PROJECTS-----------------
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
@@ -145,15 +144,13 @@
   {}
 
 \resumeItemListStart
-  \resumeItemNH{\textbf{AI-assisted event creation workflow} that converts natural-language prompts into structured event data, reducing manual setup complexity.}
-
-  \resumeItemNH{Designed \textbf{real-time event, registration, and ticketing systems} using Convex queries and mutations with instant dashboard updates and no polling.}
-
-  \resumeItemNH{Implemented \textbf{feature gating for different user tiers} using Clerk authentication, middleware-based route protection, and role-based access control.}
-
-  \resumeItemNH{Built the application using \textbf{Next.js App Router} with route-based layouts and optimized rendering for public-facing event pages.}
-\resumeItemListEnd
-
+\resumeItemNH{\textbf{Built an AI-assisted event creation system} that transforms natural-language prompts into structured event data, reducing manual configuration effort by \textbf{60\%}.}
+\resumeItemNH{\textbf{Designed real-time event, registration, and ticketing workflows} using Convex reactive queries, enabling instant UI updates without polling or manual refreshes.}
+\resumeItemNH{\textbf{Implemented secure authentication and role-based access control} with Clerk, controlling feature access by user tier and securing routes via middleware.} 
+\resumeItemNH{\textbf{Developed organizer dashboards with live analytics and QR-based check-in flows}, supporting real-time attendee tracking and operational visibility.}
+\resumeItemNH{\textbf{Architected the application using Next.js App Router}, leveraging route-based layouts and optimized rendering for fast, SEO-friendly public event pages.}
+\resumeItemListEnd 
+ 
 \resumeSubheading
   {AI-Driven Creator Content Platform (Inkbot)}
   {\href{https://github.com/praveen-raj-r/inkbot}{GitHub} \;|\;
@@ -162,30 +159,24 @@
   {}
 
 \resumeItemListStart
-  \resumeItemNH{Built an \textbf{AI-assisted content creation workflow} enabling creators to generate, expand, and refine written content through prompt-driven interactions.}
-
-  \resumeItemNH{Engineered \textbf{editor-style and dashboard UI flows} with complex state management to support rich text editing, real-time saving, and responsive user interactions.}
-
-  \resumeItemNH{Implemented a \textbf{social content platform} with user profiles, follow/unfollow flows, likes, comments, and personalized content feeds.}
-
-  \resumeItemNH{Developed a \textbf{creator analytics dashboard} to surface engagement metrics such as views, likes, comments, and follower growth.}
-
-  \resumeItemNH{Integrated \textbf{advanced media handling using ImageKit}, including background removal, smart cropping, aspect ratio control, and optimized image delivery.}
+\resumeItemNH{\textbf{Designed an AI-assisted content creation system} combining prompt-driven generation with rich text editing, enabling creators to draft, refine, and publish content efficiently.}
+\resumeItemNH{\textbf{Engineered editor and dashboard workflows} with complex client-side state management, supporting real-time autosave and responsive editing experiences.}
+\resumeItemNH{\textbf{Developed a social content platform} featuring user profiles, follow/unfollow flows, likes, comments, and personalized content feeds.}
+\resumeItemNH{\textbf{Implemented creator analytics dashboards} to track engagement metrics such as views, likes, comments, and follower growth in real time.}
+\resumeItemNH{\textbf{Integrated advanced media processing with ImageKit}, enabling smart cropping, background removal, aspect ratio control, and optimized asset delivery.}
 \resumeItemListEnd
-
-
 \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------------
 \section{Skills}
 \resumeSubHeadingListStart
   \resumeSubItem{Languages}{JavaScript (ES6+), TypeScript, HTML5, CSS3 }
-  \resumeSubItem{Frameworks \& Libraries}{React.js, Next.js, Redux, TanStack Query \& Table, React Router, React Hook Form }
+  \resumeSubItem{Frameworks \& Libraries}{React.js, Next.js, Redux Toolkit, TanStack (Query, Table), React Router, React Hook Form, Recharts, Chart.js}
+  \resumeSubItem{Backend \& APIs}{REST APIs, Convex, Clerk, JSON}
   \resumeSubItem{Styling \& UI}{Tailwind CSS, CSS Modules, shadcn/ui, Ant Design}
-  \resumeSubItem{Data Visualization}{Recharts, Chart.js}
-  \resumeSubItem{Build \& Tooling}{Vite, Webpack, Git, GitHub, REST APIs, Postman, Vercel, AWS S3, Amplify, Netlify }
+  \resumeSubItem{Build \& Tooling}{Git, GitHub, Vite, Webpack, Postman}
+  \resumeSubItem{Cloud \& Deployment}{Vercel, AWS (S3, Amplify), Netlify }
 \resumeSubHeadingListEnd
-
 
 %-----------EDUCATION-----------------
 \section{Education }
@@ -196,6 +187,5 @@
    
   \resumeSubHeadingListEnd
  
-
 %-------------------------------------------
 \end{document}
